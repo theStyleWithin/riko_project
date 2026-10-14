@@ -15,7 +15,7 @@ pypinyin
 pyopenjtalk>=0.4.1
 g2p_en
 torchaudio
-modelscope==1.10.0
+modelscope==1.27.0
 sentencepiece
 transformers>=4.43
 peft
@@ -31,7 +31,7 @@ rotary_embedding_torch
 ToJyutping 
 g2pk2
 ko_pron
-opencc; sys_platform != 'linux'
+opencc==1.2.0; sys_platform != 'linux'
 opencc==1.1.1; sys_platform == 'linux'
 python_mecab_ko; sys_platform != 'win32'
 fastapi[standard]>=0.115.2
